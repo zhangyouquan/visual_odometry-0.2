@@ -1,0 +1,2 @@
+add_executable(run_exemple_stereo run_exemple_stereo.cpp)
+target_link_libraries(run_exemple_stereo myslam ${THIRD_PARTY_LIBS})
